@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <STYLE>
+  .topbar{
+   background-color: black;
+   color:white;
+   height: 30px;
+   width: 100%;
+   line-height: 30px;
+   text-align: center;  
+ }
+ .affix{
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.mainmenu{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 1200px;
+  width: 100%;
+}
+.logo{
+ width: 300px;
+ height: 60px;
+ position: center;
+ background-color: red; 
+}      
+
+</STYLE>
+</HEAD>
+<BODY>
+	<Div class="topbar" data-spy="affix" data-offset-top="0">
+		<p>FREE SHIPPING ON ALL ORDER OVER 100 USD</p>
+	</Div>
+ <div class="container" style="width: 100%">
+  <div class="w3-bar w3-white w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">SHOP <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Denim</a>
+        <a href="#" class="w3-bar-item w3-button">Track pants</a>
+        <a href="#" class="w3-bar-item w3-button">Accessories</a>
+        <a href="#" class="w3-bar-item w3-button">Bottoms</a>
+        <a href="#" class="w3-bar-item w3-button">Tops</a>
+        <a href="#" class="w3-bar-item w3-button">Outerwear</a>
+        <a href="#" class="w3-bar-item w3-button">Headwear</a>
+        <a href="#" class="w3-bar-item w3-button">Footwear</a>
+        <a href="#" class="w3-bar-item w3-button">New Arrivals</a>
+        <a href="#" class="w3-bar-item w3-button">Back in stocks</a>
+        <a href="#" class="w3-bar-item w3-button">Comming soons</a>
+      </div>
+    </div>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SHOP INSTAGRAM</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">SHOP</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">SHOP INSTAGRAM</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large><<i class="fab fa-facebook-square"></i></a>
+  </div>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+     <div class="item active">
+      <div class="w3-display-middle w3-center">
+       <span class="w3-text-white" style="font-size:50px">m&nbsp;n&nbsp;m&nbsp;l</span>
+     </div>
+     <img src="C:\Users\MY PC\Downloads\New folder (2)\mnml-denim-3.jpg" alt="mnml denim-1" style="width:100%;height: auto;">
+   </div>
+
+   <div class="item">
+     <div class="w3-display-middle w3-center">
+       <span class="w3-text-white" style="font-size:50px">m&nbsp;n&nbsp;m&nbsp;l</span>
+     </div> 
+     <img src="C:\Users\MY PC\Downloads\New folder (2)\mnml-2017-spring-summer-collection-5.jpg" alt="mnml denim-2" style="width:100%;height:auto">
+   </div>
+
+   <div class="item">
+    <div class="w3-display-middle w3-center">
+     <span class="w3-text-white" style="font-size:50px">m&nbsp;n&nbsp;m&nbsp;l</span>
+   </div>
+   <img src="C:\Users\MY PC\Downloads\New folder (2)\IMG_7307.jpg" alt="mnml-denim-3" style="width:100%;height:auto;">
+ </div>
+</div>
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<bR>
+<br>
+<div class="container" style="text-align: center;">
+ <h3>HIGH QUALITY BASICS DEVELOPED IN LOS ANGELES.</h3>
+ <br>
+ <p>Progressive silhouettes and wardrobe staples sold at a fair price.</p>
+</div>
+<br>
+<br>
+<br>
+<script>
+ function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</BODY>
+</HTML>
